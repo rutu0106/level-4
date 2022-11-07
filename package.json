@@ -1,0 +1,24 @@
+{
+  "name": "level-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.2.2",
+    "minimist": "^1.2.7"
+  },
+  "script": {
+    "prepare": "husky install"
+  }
+}
